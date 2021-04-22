@@ -17,7 +17,7 @@ vector<int> nextGreaterElement(vector<int>a, int n)
 
 	for(int i=n-1;i>=0;i--)
 	{
-		while(!s.empty() && s.top() <= a[i])          // we just have to keep the greater element on the top 
+		while(!s.empty() && s.top() <= a[i])          // we just have to keep the greater element on the top from that particular element in a with index i 
 			s.pop();
 
 		if(s.empty())          // if s is empty, means there is no NGE for that element
