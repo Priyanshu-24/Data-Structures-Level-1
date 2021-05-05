@@ -15,8 +15,8 @@ ListNode* reverse(ListNode* head)
     
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         
-        /l1 = reverse(l1);
-        /l2 = reverse(l2);
+        l1 = reverse(l1);
+        l2 = reverse(l2);
         
         int sum = 0, carry = 0;
         

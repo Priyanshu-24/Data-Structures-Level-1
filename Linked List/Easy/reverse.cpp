@@ -1,6 +1,6 @@
 // iterative method
 
-// take two pointers curr, prev and next
+// take three pointers curr, prev and next
 
 Node* reverse(Node* head)
 {

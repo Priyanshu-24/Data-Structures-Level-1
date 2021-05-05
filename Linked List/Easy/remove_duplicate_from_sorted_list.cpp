@@ -5,7 +5,7 @@ ListNode* deleteDuplicates(ListNode* head) {
         
         ListNode *curr=head;
         
-        while(curr && curr->next)
+        while(curr->next)    // as we just need to reach the last node
         {
             if(curr->val==curr->next->val)
             {
