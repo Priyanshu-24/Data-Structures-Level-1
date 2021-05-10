@@ -42,7 +42,7 @@ int count(ListNode* head)
         
         while(h1 && h2)
         {
-            if(h1 == h2)
+            if(h1 == h2)            // checking first is important, then increment the pointers
                 return h1;
             
             h1 = h1->next;

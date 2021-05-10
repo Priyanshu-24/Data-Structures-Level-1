@@ -1,7 +1,7 @@
 // find the middle of linked list
 
 // first approach is count no of nodes and then traverse the nodes till (count/2) + 1 times
-// in this we are traversinf the list twice
+// in this we are traversing the list twice
 
 // second method with single traversal
 

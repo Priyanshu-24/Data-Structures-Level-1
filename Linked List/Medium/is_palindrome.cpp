@@ -13,9 +13,9 @@ bool isPalindrome(ListNode* head) {
         
         ListNode* fast = head, *slow = head;
         
-        while(fast->next && fast->next->next)   // tricky part 
-        {
-            slow = slow->next;
+        while(fast->next && fast->next->next)   // tricky part as we do need to check the middle element in odd lenght list
+        {                                        // and in even length linked we just need a before node from where the list 
+            slow = slow->next;                 // is to be reversed
             fast = fast->next->next;
         }
         
@@ -31,7 +31,7 @@ bool isPalindrome(ListNode* head) {
             slow = slow->next;
             head = head->next;
         }
-        cout<<1;
+
         return true;
         
     }
