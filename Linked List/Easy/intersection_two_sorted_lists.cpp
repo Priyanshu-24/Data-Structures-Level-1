@@ -23,7 +23,7 @@ Node* findIntersection(Node* head1, Node* head2)
             {
                 temp = new Node(head1->data);
                 curr->next = temp;
-                temp = curr;
+                curr = temp;
             }
             
             // donot forget to increment both the pointers in this step

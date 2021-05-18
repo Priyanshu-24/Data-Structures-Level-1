@@ -1,4 +1,4 @@
-// Find all subarray sum and check if sum = 0 or not => O(n) time and O(1) space
+// Find all subarray sum and check if sum = 0 or not 
 
 // O(n) time and O(n) solution using set
 

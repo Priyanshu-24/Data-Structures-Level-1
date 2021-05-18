@@ -3,7 +3,7 @@
 // Firstly find an index from the back such that a[i]<a[i+1] i.e element on left side is smaller than on the right side
 // Then we will have two cases 
 //    1. if there doesnot exist ant element such that a[i]<a[i+1] => (5,4,3,2,1)
-//        then just reverse the array as it is the last permutaion anf first permut. is the ans
+//        then just reverse the array as it is the last permutaion and first permut. is the ans
 //    2. If we have found the req. index i
 //        then find another index (j) from the back such that a[j]>a[i] and then swap a[i],a[j]
 //         then reverse everything after the index i    
